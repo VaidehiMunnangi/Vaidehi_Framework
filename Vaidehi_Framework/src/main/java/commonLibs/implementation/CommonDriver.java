@@ -37,17 +37,17 @@ public class CommonDriver implements IDriver {
 
 		if (browserType.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:/Users/Saurabh Dhingra/workspace/libs/chromedriver01122018/chromedriver.exe");
+					"C:\\Users\\VAIDEHI\\eclipse-workspace\\lib\\chromedriver.exe");
 
 			driver = new ChromeDriver();
 		} else if (browserType.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
-					"C:/Users/Saurabh Dhingra/workspace/libs/geckodriver-v0.20.1-win64/geckodriver.exe");
+					"C:\\Users\\VAIDEHI\\eclipse-workspace\\lib\\geckodriver.exe");
 
 			driver = new FirefoxDriver();
-		} else if (browserType.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver",
-					"C:/Users/Saurabh Dhingra/workspace/libs/MicrosoftWebDriver.exe");
+		} else if (browserType.equalsIgnoreCase("ie")) {
+			System.setProperty("webdriver.ie.driver",
+					"C:\\Users\\VAIDEHI\\eclipse-workspace\\lib\\IEDriverServer.exe");
 
 			driver = new EdgeDriver();
 		} else {

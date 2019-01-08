@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13014" started-at="2019-01-08T20:49:54Z" finished-at="2019-01-08T20:50:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13014" started-at="2019-01-08T20:49:54Z" finished-at="2019-01-08T20:50:07Z">
+      <class name="designPattern.DemoAmazonPageFactoryStyle">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:designPattern.DemoAmazonPageFactoryStyle@18be83e4]" name="invokeBrowser" is-config="true" duration-ms="6929" started-at="2019-01-08T20:49:54Z" finished-at="2019-01-08T20:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="verifySearchProduct()[pri:0, instance:designPattern.DemoAmazonPageFactoryStyle@18be83e4]" name="verifySearchProduct" duration-ms="5462" started-at="2019-01-08T20:50:01Z" finished-at="2019-01-08T20:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:designPattern.DemoAmazonPageFactoryStyle@18be83e4]" name="closeBrowser" is-config="true" duration-ms="610" started-at="2019-01-08T20:50:06Z" finished-at="2019-01-08T20:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- designPattern.DemoAmazonPageFactoryStyle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
