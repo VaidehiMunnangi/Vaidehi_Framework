@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HomePageTestSuite]">
+  <test thread-count="5" name="LoginValidationTest(failed)">
+    <classes>
+      <class name="com.edureka.testcases.HomePageTests">
+        <methods>
+          <include name="verifyUserLoginToMercuryTravel"/>
+          <include name="setUp"/>
+          <include name="cleanup"/>
+          <include name="postCleanUp"/>
+          <include name="preSetup"/>
+          <include name="afterAMethod"/>
+        </methods>
+      </class> <!-- com.edureka.testcases.HomePageTests -->
+    </classes>
+  </test> <!-- LoginValidationTest(failed) -->
+</suite> <!-- Failed suite [HomePageTestSuite] -->

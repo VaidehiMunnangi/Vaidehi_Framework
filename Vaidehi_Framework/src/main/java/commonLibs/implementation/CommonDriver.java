@@ -61,7 +61,7 @@ public class CommonDriver implements IDriver {
 
 		url = url.trim();
 		driver.manage().deleteAllCookies();
-
+		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(pageloadTimeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(elementDetectionTimeout, TimeUnit.SECONDS);
 
